@@ -1,0 +1,52 @@
+body {
+  background-color: #fff;
+  color: #757575;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* main text color #757575*/
+.header-contact {
+  color: #757575;
+}
+/* secondary text color #212121 */
+.hero-title {
+  color: #212121;
+}
+.advantages-title {
+  color: #212121;
+}
+.section-title {
+  color: #212121;
+}
+
+/* accent color #2196F3*/
+
+/* secondary background color #2F303A */
+
+/* logo */
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+}
+.logo-part {
+  color: #2196f3;
+}
+/* site nav */
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+/* header contacts */
+.header-contact:hover,
+.header-contact:focus {
+  color: #2196f3;
+}
