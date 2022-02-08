@@ -137,7 +137,8 @@ a {
   line-height: 1.6;
   font-weight: 500;
 }
-.button.secondary:hover {
+.button.secondary:hover,
+.button.secondary:focus {
   background-color: var(--accent-color);
   color: var(--third-text-color);
 }
