@@ -26,11 +26,6 @@ a {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
 }
 .logo-part {
   color: var(--accent-color);
