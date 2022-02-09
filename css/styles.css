@@ -9,7 +9,7 @@
 body {
   background-color: #fff;
   color: var(--main-text-color);
-  font-family: roboto;
+  font-family: roboto, sans-serif;
 }
 ul {
   list-style: none;
@@ -17,7 +17,10 @@ ul {
 a {
   text-decoration: none;
 }
-
+.hero-title,
+.advantages-title {
+  text-transform: uppercase;
+}
 /* logo */
 .logo {
   color: var(--secondary-text-color);
@@ -26,20 +29,28 @@ a {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+  font-family: Raleway, sans-serif;
 }
 .logo-part {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
 }
 /* site nav */
-.nav-link:hover,
-.nav-link:focus {
-  color: var(--accent-color);
-}
-.nav-link {
+.site-nav {
   color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.2;
   font-weight: 500;
+}
+.site-nav-link {
+  color: var(--secondary-text-color);
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+.site-nav-link.current {
+  color: var(--accent-color);
 }
 /* header contacts */
 .header-contact:hover,
@@ -60,6 +71,10 @@ a {
   font-size: 16px;
   line-height: 1.9;
   font-weight: 700;
+}
+.button.primary:hover,
+.button.primary:focus {
+  background-color: #188ce8;
 }
 .hero-title {
   color: var(--third-text-color);
@@ -102,12 +117,29 @@ a {
   line-height: 1.2;
   font-weight: 400;
 }
+/* our team */
+.section.team {
+  background-color: #f5f4fa;
+}
 /* footer */
+address {
+  font-style: normal;
+}
 .footer {
   background-color: var(--background-color);
 }
-.footer-address {
+.footer-address-map {
   color: var(--third-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+.footer-address-map:hover,
+.footer-address-map:focus {
+  color: var(--accent-color);
+}
+.footer-address {
+  color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.7;
   font-weight: 400;
@@ -118,14 +150,17 @@ a {
 }
 .downlogo-part {
   color: #2196f3;
+  font-family: Raleway, sans-serif;
 }
 .footer-logo {
   color: var(--third-text-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+  font-family: Raleway, sans-serif;
 }
 /* PORTFOLIO.HTML STYLES */
 /* filters */
